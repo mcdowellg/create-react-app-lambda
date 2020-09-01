@@ -2,6 +2,9 @@ import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
 
+import LandingPage from './LandingPage';
+
+
 class LambdaDemo extends Component {
   constructor(props) {
     super(props)
@@ -41,7 +44,7 @@ class App extends Component {
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <LambdaDemo />
-          <LandingPage />
+          
         </header>
       </div>
     )
