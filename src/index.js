@@ -21,7 +21,7 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route path="/index" render={(props) => <Index {...props} />} />
-      <Route path="/app" render={(props) => <App />} />
+      <Route path="/app" render={(props) => <App {...props}/>} />
       <Route
         path="/nucleo-icons"
         render={(props) => <NucleoIcons {...props} />}
