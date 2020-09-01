@@ -7,7 +7,7 @@ import LandingPage from './LandingPage';
 
 ReactDOM.render(
     <>
-        <App />
+        {/* <App /> */}
         <LandingPage />
     </>
     , document.getElementById('root'));
